@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <title>App</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dist/app.css') }}">
+    </head>
+    <body>
+        {% block body %}
+        <div id="root"></div>
+        {% endblock %}
+    </body>
+    <script type="text/javascript" src="http://localhost:8080/app.js"></script>
+</html>
