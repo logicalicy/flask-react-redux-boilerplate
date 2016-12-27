@@ -1,14 +1,19 @@
-# Flask / React boilerplate
+# Flask and React/Redux boilerplate
 
-Boilerplate code for setting up a [Flask](http://flask.pocoo.org/) / [React](https://facebook.github.io/react/) project.
+Boilerplate code for setting up a [Flask](http://flask.pocoo.org/) and [React](https://facebook.github.io/react/) / [Redux](http://redux.js.org/) project. Built on top of the [Flask and React boilerplate](https://github.com/logicalicy/flask-react-boilerplate) project.
 Also includes a [Webpack](https://webpack.github.io/) build and boilerplate pytests.
 
 Made with the following tutorials and the occasional [SO](https://stackoverflow.com):
 
 * [How To Structure Large Flask Applications](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
 * [Flask tutorial](http://flask.pocoo.org/docs/0.12/tutorial)
+* [Redux tutorial](http://redux.js.org/docs/advanced/ExampleRedditAPI.html)
 
 Install and run the Flask and React apps to get started.
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/logicalicy/flask-react-redux-boilerplate/master/Screenshot.png "Flask and React/Redux boilerplate")
 
 ## Flask app
 
@@ -41,7 +46,7 @@ You should see the response:
 []
 ```
 
-## React app
+## React and Redux app
 
 ### Install
 
@@ -63,7 +68,9 @@ You should see the "Hello World!" page.
 
 ### Develop
 
-Change something in `app/static/js/app.js`. Changes should be reflected immediately in the browser.
+Change something in `app/static/js/app.js`.
+Change something in `app/static/sass/app.css`.
+Changes should be reflected immediately in the browser.
 
 ## License
 

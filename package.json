@@ -1,7 +1,7 @@
 {
   "name": "flask-react-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate Flask and React application",
+  "description": "Boilerplate Flask and React/Redux application",
   "main": "app.js",
   "directories": {
     "test": "tests"
