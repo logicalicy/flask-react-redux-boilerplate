@@ -13,6 +13,6 @@ class Base(db.Model):
     def serialize(self):
         return {
             'id': self.id,
-            'date_created': self.date_created,
-            'date_modified': self.date_modified
+            'date_created': self.date_created.isoformat(),
+            'date_modified': self.date_modified.isoformat()
         }
