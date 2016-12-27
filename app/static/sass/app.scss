@@ -1,4 +1,9 @@
-h1 {
+html {
     font-family: Helvetica;
     text-align: center;
+}
+
+.entries__entry {
+    display: flex;
+    flex-flow: column wrap;
 }
