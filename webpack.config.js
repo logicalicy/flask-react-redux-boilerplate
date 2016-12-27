@@ -20,9 +20,10 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
+                exclude: /node_modules/,
                 loader: ExtractTextPlugin.extract(
                     'style',
-                    'css!sass'
+                    'css?sourceMap!sass'
                 )
             }
         ],
